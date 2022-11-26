@@ -147,3 +147,4 @@ widgetsnbextension==3.6.1; python_version >= "3.7"
 zipp==3.8.1; python_version < "3.9" and python_version >= "3.7"
 nltk==3.7
 plotly==5.11.0
+streamlit-option-menu==0.3.2
