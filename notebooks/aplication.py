@@ -17,7 +17,7 @@ staff=[
         'linkedin': '[Carlos Matheus](https://github.com/cmatheusIA)',
         'github': '[Carlos Matheus](https://www.linkedin.com/in/carlos-matheus-dev/)',
         'email': 'cmatheusrm@alu.ufc.br',
-        'imagem': '../docs/assets/images/matheus.png'
+        'imagem': 'docs/assets/images/matheus.png'
     },
     {
         'nome': 'Cristina Toshie Iwassaki', 
@@ -25,7 +25,7 @@ staff=[
         'linkedin': '[Cristina Iwassaki](https://www.linkedin.com/in/cristina-iwassaki/)',
         'github': '[Cristina Iwassaki](https://github.com/c-Tos1wa)',
         'email': 'cristoshiwassaki@gmail.com',
-        'imagem': '../docs/assets/images/profileCristina.jpeg'
+        'imagem': 'docs/assets/images/profileCristina.jpeg'
     },
     {
         'nome': 'Douglas da Silva Teixeira', 
@@ -33,7 +33,7 @@ staff=[
         'linkedin': '[Douglas Teixeira](https://www.linkedin.com/in/douglas-teixeira-6854581aa/)',
         'github': '[Douglas Teixeira](https://github.com/DougTeixeira)',
         'email': 'dougteixeira@hotmail.com',
-        'imagem': '../docs/assets/images/me.jpg'
+        'imagem': 'docs/assets/images/me.jpg'
     },
     {
         'nome': 'Fco Rafael de L. Xavier', 
@@ -41,14 +41,14 @@ staff=[
         'linkedin': '[Rafael Xavier](https://www.linkedin.com/in/rafaellxavier)',
         'github': '[Rafael Xavier](https://github.com/rafaelxavier-ocn)',
         'email': 'frlxavier02@gmail.com',
-        'imagem': '../docs/assets/images/rafael.jpeg'
+        'imagem': 'docs/assets/images/rafael.jpeg'
     }
 ]
 
 # carregando modelo
 pipe_lr = joblib.load(
     open(
-        "../models/model_RandomForestClassifier_with_stop_words_stemma.joblib",
+        "models/model_RandomForestClassifier_with_stop_words_stemma.joblib",
         "rb"
     )
 )
@@ -56,7 +56,7 @@ pipe_lr = joblib.load(
 # carregando pre processador
 pipe_pp = joblib.load(
     open(
-        "../models/preprocessor.joblib",
+        "models/preprocessor.joblib",
         "rb"
     )
 )
