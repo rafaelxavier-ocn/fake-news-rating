@@ -231,7 +231,7 @@ def main():
         
     if selected=="Projeto":
         # st.title(f"{selected} foi selecionado, mostrar infográfico")
-        st.image('../docs/assets/images/resumo_grafico.png')
+        st.image('docs/assets/images/resumo_grafico.png')
         
     if selected=="Sobre":
         st.header("")
